@@ -1,5 +1,3 @@
-# code-test-ibm
-
 ## Language/Framework
 
 - Scala/Sbt
@@ -23,10 +21,16 @@ Use `sbt test` for running the unit tests (after cloning the repo and also assum
 Please change the following variables in the test cases (3 & 4) for testing different holes/balls assignment scenarios
 
 For inputs:
+```sh
 val ballsList = List(1, 2, 2, 2, 2, 2) //Collection of Balls
 val holesList = List(2, 2) //Collection of Holes
-
+```
 For expected output:
-val unassignedBalls: List[Int] = List(1, 2, 2, 2) //Right collection of balls that should be assigned
-val unassignedHoles: List[Int] = List.empty[Int] //Right collection of holes that should be assigned
-val holeWithBallList: List[(Int, Int)] = List[(Int, Int)]((2, 2), (2, 2)) //Right holes and ball placement
+```sh
+//Right collection of balls that should be assigned
+val unassignedBalls: List[Int] = List(1, 2, 2, 2)
+//Right collection of holes that should be assigned
+val unassignedHoles: List[Int] = List.empty[Int] 
+//Right holes and ball placement
+val holeWithBallList: List[(Int, Int)] = List[(Int, Int)]((2, 2), (2, 2))
+```
