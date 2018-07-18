@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mBallsToHolesAssignerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- An empty Set should have size 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- List of Int parameters for the size of Balls and should return the respective models[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The output represented in individual models should result as an object of type HoleWithBallResult[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- [Scenario 1] List of sizes for holes and balls should return the assigned/unassigned holes and balls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balls with larger size should get precedence for assignment[0m[0m
