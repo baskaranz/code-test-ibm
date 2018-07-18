@@ -5,14 +5,15 @@
 ## Problem statement
 
 A model of a resource allocation problem:
-• I have two data records: Hole, and Ball
-• Hole and Ball each have an integer size property
-• I need a function to assign balls to holes
-• The function must
-● take a collection of balls and a collection of holes
-● return a collection of balls that could not be assigned
-● return a collection of holes that could not be assigned
-● return a collection of (hole, ball) pairs representing the assignments
+- I have two data records: Hole, and Ball
+- Hole and Ball each have an integer size property
+- I need a function to assign balls to holes
+
+The function must:
+- take a collection of balls and a collection of holes
+- return a collection of balls that could not be assigned
+- return a collection of holes that could not be assigned
+- return a collection of (hole, ball) pairs representing the assignments
   
 ### SBT
 
